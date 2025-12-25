@@ -34,6 +34,9 @@ sudo ufw allow OpenSSH
 sudo ufw enable  
 sudo ufw status verbose
 
+git config --global user.name "Robert Olechowski"
+git config --global user.email robertolechowski@gmail.com
+
 sudo reboot
 
 docker login ghcr.io -u robertolechowski
